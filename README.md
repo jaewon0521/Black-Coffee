@@ -41,6 +41,23 @@
 
 <br/>
 
+## 📝 License
+
+Udemy의 블랙커피 강의를 통해 Vanilla JS로 메뉴 관리를 구현한 프로젝트입니다.
+
+<br/>
+
+## 느낀점
+
+1. 사용자의 요구사항을 step별로 나누어 명확하게 요구사항을 정리하는 작업이 중요하다.
+2. 인라인 코드가 있을 경우 함수로 정의하여 코드의 목적성을 명확하게 나타내야 한다.
+3. 코드를 작성 후 중복되는 코드와 재사용성을 고려하여 기능이 완성된 후 리팩터링 과정은 필요하다.
+4. 코드 리팩터링 후 테스트를 통해 기능이 동일하게 동작하는지 꼭 확인해야 한다.
+5. asycn await의 필요성과 Dom 조작 이벤트 메서드를 알 수 있는 강의었다.
+6. 상태관리의 필요성을 배울 수 있었다. 리액트의 상태관리에 대해 다시한번 생각 할 수 있는 강의었다.
+
+<br/>
+
 ## 🎯 step1 요구사항 - 돔 조작과 이벤트 핸들링으로 메뉴 관리하기
 
 - [ ] 에스프레소 메뉴에 새로운 메뉴를 확인 버튼 또는 엔터키 입력으로 추가한다.
@@ -199,60 +216,3 @@
 ```javascript
 응답 데이터 없음
 ```
-
-<br/>
-
-## ⚙️ Before Started
-
-#### <img alt="Tip" src="https://img.shields.io/static/v1.svg?label=&message=Tip&style=flat-square&color=673ab8"> 로컬에서 서버 띄워서 손쉽게 static resources 변경 및 확인하는 방법
-
-로컬에서 웹서버를 띄워 html, css, js 등을 실시간으로 손쉽게 테스트해 볼 수 있습니다. 이를 위해서는 우선 npm이 설치되어 있어야 합니다. 구글에 `npm install` 이란 키워드로 각자의 운영체제에 맞게끔 npm을 설치해주세요. 이후 아래의 명령어를 통해 실시간으로 웹페이지를 테스트해볼 수 있습니다.
-
-```
-npm install -g live-server
-```
-
-실행은 아래의 커맨드로 할 수 있습니다.
-
-```
-live-server 폴더명
-```
-
-<br/>
-
-## 💻 Code Review
-
-아래 링크들에 있는 리뷰 가이드를 보고, 좋은 코드 리뷰 문화를 만들어 나가려고 합니다.
-
-- [코드리뷰 가이드1](https://edykim.com/ko/post/code-review-guide/)
-- [코드리뷰 가이드2](https://wiki.lucashan.space/code-review/01.intro/)
-
-<br/>
-
-## 👏🏼 Contributing
-
-만약 미션 수행 중에 개선사항이 필요하다면, 언제든 자유롭게 PR을 보내주세요.
-
-<br/>
-
-## 🐞 Bug Report
-
-버그를 발견한다면, [Issues](https://github.com/blackcoffee-study/moonbucks-menu/issues)에 등록해주세요.
-
-<br/>
-
-## 📝 License
-
-This project is [MIT](https://github.com/blackcoffee-study/moonbucks-menu/blob/main/LICENSE) licensed.
-
-<br/>
-Udemy의 블랙커피 강의를 통해 Vanilla JS로 메뉴 관리를 구현한 프로젝트입니다.
-
-## 느낀점
-
-1. 사용자의 요구사항을 step별로 나누어 명확하게 요구사항을 정리하는 작업이 중요하다.
-2. 인라인 코드가 있을 경우 함수로 정의하여 코드의 목적성을 명확하게 나타내야 한다.
-3. 코드를 작성 후 중복되는 코드와 재사용성을 고려하여 기능이 완성된 후 리팩터링 과정은 필요하다.
-4. 코드 리팩터링 후 테스트를 통해 기능이 동일하게 동작하는지 꼭 확인해야 한다.
-5. asycn await의 필요성과 Dom 조작 이벤트 메서드를 알 수 있는 강의었다.
-6. 상태관리의 필요성을 배울 수 있었다. 리액트의 상태관리에 대해 다시한번 생각 할 수 있는 강의었다.
